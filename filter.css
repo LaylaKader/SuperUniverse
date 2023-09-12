@@ -1,0 +1,112 @@
+body{
+    margin-top:20px;
+    
+    background-color: #6e1d1d;    
+}
+.main-body {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topbar{
+    background-color: rgb(39, 7, 7);
+    overflow: hidden;
+    border-radius: 7px;
+    height: 55px;
+    position: relative;
+    top: -18px;
+}
+.topbar a{
+float: left;
+color:aliceblue;
+text-align: center;
+padding: 20px 23px;
+text-decoration: none;
+font-size: 20px;
+
+border-radius: 7px;
+
+}
+
+.pic1{
+   
+    position: absolute;
+    top: 10px;
+    right: -60px;
+    
+}
+.ball1{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 400px;
+    left: -40px;
+    background-color: rgba(44, 34, 34, 0.507);
+    border-radius: 50%;
+}
+.ball2{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: -40px;
+    background-color: rgba(121, 64, 64, 0.575);
+    border-radius: 50%;
+}
+.ball3{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 200px;
+    left: -40px;
+    background-color: rgba(139, 120, 65, 0.918);
+    border-radius: 50%;
+}
+.topbar a:hover{
+    background-color: #909217;
+
+}
+.container1{
+position: relative;
+left: 30px;
+}
+.options{
+    position: relative;
+    left: 40px;
+    font-size: 20px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 26px;
+    }
+ .options:hover{
+    
+    
+     color: red;
+ }   
+.rounded-circle
+{
+    border-radius: 50%;
+    border: #812828;
+    border-width: 10px;
+}
+.image{
+    position: relative;
+    top: 7px;
+    left: 3px;
+    
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+.content{
+    background-color: rgb(221, 217, 208);
+    position: relative;
+    height: 600px;
+    width: 800px;
+    top: -10px;
+    left: 200px;
+    border-radius: 7px;
+    text-align: 40px;
+}

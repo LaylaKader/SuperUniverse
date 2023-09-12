@@ -1,0 +1,108 @@
+*
+body{
+    display: flex;
+    justify-content: center;
+   
+    flex-direction: column;
+     
+     /* background-image: linear-gradient(red, yellow);     */
+	 background-image: linear-gradient(#A9A9A9, #301934); 
+ }
+
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*font-family: 'poppins',sans-serif;*/
+}
+.container4{
+	width: 100%;
+	height: 100vh;
+	/*background-image: url(game2/spiderman.jpg);*/
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.image{
+	background: rgb(61 17 19);
+	text-align: center;
+	padding: 29px 81px;
+	color: #fff;
+	position: relative;
+	border-radius: 20 px;
+	
+}
+.profile-bottom{
+	background: rgb(0 0 0 / 0%);
+	color: #999;
+	padding: 60px 0;
+	margin-right: -90px;
+	margin-left: -90px;
+	margin-bottom: -40px;
+	border-radius: 20px;
+	margin-top: -10px;
+}
+.profile-bottom img{
+	/*width:15px;
+	margin-top: 15px;*/
+	cursor: pointer;
+}
+.profile-box button{
+	background: #fff;
+	color:#ff574a;
+	border: none;
+	outline: none; 
+	box-shadow: 0 5px 10px rgba(244, 67, 54, 0.5);
+	padding: 15px 60px;
+	cursor: pointer;
+	border-radius: round;
+	margin-bottom: -50px;
+	font-weight: 600;
+	font-size: 16px;
+}
+.profile-box h3{
+	font-size: 22px;
+	margin-top: 20px;
+	font-weight: 500;
+}
+.social-media img{
+	width: 20px;
+	margin: 30px 5px;
+	cursor: pointer;
+}
+.button{
+	position: relative;
+    top: 32px;
+    left: -4px;
+    align-self: center;
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: aliceblue;
+    background-color: rgba(61, 42, 68, 0.616);
+    border-radius: 40px;
+    transition: ease-out 0.3s;
+    font-size: 20px;
+
+}
+.ball2{
+    height: 95px;
+    width: 112px;
+    position: absolute;
+    top: 100px;
+    left: 15px;
+    background-color: rgb(61 17 19);
+    border-radius: 50%;
+}
+.ball3{
+    height: 58px;
+    width: 72px;
+    position: absolute;
+    top: 200px;
+    left: 16px;
+    background-color: rgb(61 17 19 / 59%);
+    border-radius: 50%;
+}
+}
